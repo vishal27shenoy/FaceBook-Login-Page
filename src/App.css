@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    background-color: #eff0f4;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+.left_container{
+    margin: auto;
+    margin-right: 30px;
+}
+.facebooktext{
+    font-size: 40px;
+    color: #356fdc;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.facebooktexts{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.login_container{
+    background-color: #fefeff;
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.rightcontainer{
+    margin: auto;
+    margin-left: 30px;
+}
+.text{
+    display: flex;
+}
+.text > input{
+    margin-top: 15px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    text-indent: 10px;
+    border-color: lightgray 1px;
+    border-radius: 3px;
+    border: solid lightgray 1px;
+    outline: lightgray 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.password{
+    display: flex;
+    margin-top: 15px;
+}
+.password > input{
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    text-indent: 10px;
+    border-color: lightgray 1px;
+    border-radius: 3px;
+    border: solid lightgray 1px;
+    outline: lightgray 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login_btn{
+    display: flex;
+    margin-top: 15px;
+}
+.login_btn > button{
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    background-color: #2c76f0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.forgot_password{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    color: #2c76f0;
+}
+.hrline{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+.createnewaccount{
+    width: 320px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+}
+.createnewaccount > button{
+    height: 40px;
+    margin: auto;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2ba54b;
+    color: white;
+    outline: none;
+}
+.createpage{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.bold{
+    font-weight: 600;
+    color:rgb(63, 60, 60);
+}
+.normaltext{
+    color: gray;
+}
+@media only screen and (max-width: 1080px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        margin: auto;
+    }
+    .onebr{
+        display: none;
+    }
+    .left_container{
+        margin: auto;
+        width: 350px;
+    }
+    .rightcontainer{
+        margin: auto;
+    }
+    
+  }
